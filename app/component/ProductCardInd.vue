@@ -1,14 +1,11 @@
 <template>
   <section id="product" class="w-full max-w-6xl mx-auto px-4 py-12 md:py-20">
     <h2 class="text-2xl md:text-4xl font-bold text-center mb-10 text-gray-800">
-      What We Provide
+      Produk dan Layanan Kami
     </h2>
     <p class="text-xl md:text-2xl font-semibold text-center mb-3 text-gray-600">
-      With high-precision tubing and metal components, Pratika combines
-      cutting-edge production techniques—from automated and manual cutting to
-      forming, bending, machining, and custom assembly. Our parts are trusted by
-      the HVAC, automotive, and electronics industries for their reliability and
-      performance
+      Dengan pipa presisi tinggi dan komponen logam unggulan, Pratika memadukan teknik produksi mutakhir — mulai dari pemotongan otomatis dan manual, pembentukan, pembengkokan, pemesinan, hingga perakitan khusus.
+Komponen kami dipercaya oleh industri HVAC, otomotif, dan elektronik berkat keandalan dan performanya yang teruji.
     </p>
     <div class="grid gap-8 md:gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
       <div
@@ -57,25 +54,25 @@ export default {
       products: [
         {
           name: "Tubing and Piping",
-          desc: "Our tubing production process includes precise pipe cutting (both automated and manual), pipe bending (manual, automated, and CNC), and pipe end forming (automated and semi-automated). These capabilities ensure that we deliver high-quality, customized tubing solutions to meet the diverse needs of our clients.",
+          desc: "Proses produksi pipa kami mencakup pemotongan presisi (otomatis maupun manual), pembengkokan pipa (manual, otomatis, dan CNC), serta pembentukan ujung pipa (otomatis dan semi-otomatis). Kemampuan ini memastikan kami menghadirkan solusi pipa berkualitas tinggi yang disesuaikan untuk memenuhi beragam kebutuhan klien.",
           image: piping_tubing_ac,
           id: 4,
         },
         {
           name: "Metal Stamping",
-          desc: "Our metal stamping services include precision press operations ranging from 10 to 35 tons, specializing in the production of brackets, sheet metal components, flat springs, clips, and retaining rings. These capabilities ensure the creation of high-quality, durable parts for a wide range of applications.",
+          desc: "Layanan metal stamping kami mencakup operasi press presisi dengan kapasitas mulai dari 10 hingga 35 ton, khusus untuk memproduksi bracket, komponen pelat logam, pegas datar, klip, dan cincin pengunci. Kemampuan ini memastikan terciptanya komponen berkualitas tinggi dan tahan lama untuk berbagai kebutuhan aplikasi.",
           image: MetalStamping,
           id: 3,
         },
         {
           name: "Metal Machining",
-          desc: "Our machining capabilities include precision drilling, milling, and turning, along with grinding, tapping, and turret operations. We also offer CNC lathe and automatic lathe services, ensuring high-accuracy machining for a wide range of applications and custom requirements.",
+          desc: "Kemampuan machining kami mencakup pengeboran presisi, milling, dan turning, dilengkapi dengan proses grinding, tapping, serta operasi turret. Kami juga menyediakan layanan CNC lathe dan automatic lathe, memastikan hasil machining dengan akurasi tinggi untuk berbagai kebutuhan aplikasi dan permintaan khusus.",
           image: Machining,
           id: 2,
         },
         {
           name: "Assembly",
-          desc: "Our specialized assembly line includes custom assembly services such as spin motor plate assembly, holder coupling, and capacitor wiring. These capabilities allow us to deliver high-quality, fully assembled components tailored to meet the specific needs of our clients.",
+          desc: "Lini perakitan khusus kami mencakup layanan perakitan sesuai kebutuhan seperti perakitan pelat motor putar, penyambungan holder coupling, dan pengkabelan kapasitor. Kemampuan ini memungkinkan kami menghadirkan komponen berkualitas tinggi yang sepenuhnya terakit, dirancang khusus untuk memenuhi kebutuhan spesifik setiap klien.",
           image: Assembly,
           id: 1,
         },
