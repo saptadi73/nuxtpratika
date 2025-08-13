@@ -14,7 +14,7 @@
 
         <!-- Navigasi (Gantikan dengan Peta Leaflet) -->
         <div>
-          <h4 class="text-lg font-semibold mb-4">Kunjungi Kami di:</h4>
+          <h4 class="text-lg font-semibold mb-4">Visit Us:</h4>
           <div class="space-y-2 text-sm">
             <div id="map" style="height: 300px;"></div>
             <p class="mt-2">Alamat: Jl. Beringin, No. 71, Kel. Leuwinanggung, Kec. Tapos, Depok, Jawa Barat, Indonesia 16456</p>
