@@ -15,7 +15,7 @@ Komponen kami dipercaya oleh industri HVAC, otomotif, dan elektronik berkat kean
       >
         <fade-in-card>
           <div>
-            <a :href="`/product/${product.id}`">
+            <a :href="`/ind/produk/${product.id}`">
               <img
                 :src="product.image"
                 :alt="product.name"

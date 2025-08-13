@@ -23,6 +23,15 @@ import GalleryCertificate from '~/component/GalleryCertificate.vue';
 import FooterDepan from '~/component/FooterDepan.vue';
 import QuoteArticle from '~/component/QuoteArticle.vue';
 
+useSeoMeta({
+  title: 'Pratika Manufacturing',
+  ogTitle: 'Pratika Manufacturing',
+  description: 'Excellence in Quality, Service, and Timely Delivery. Pratika Manufacturing stands at the forefront of the manufacturing industry, delivering high-quality products that meet the demands of leading industries in Indonesia and globally recognized international brands',
+  ogDescription: 'Excellence in Quality, Service, and Timely Delivery. Pratika Manufacturing stands at the forefront of the manufacturing industry, delivering high-quality products that meet the demands of leading industries in Indonesia and globally recognized international brands.',
+  ogImage: '/pratika_manufacture.png',
+  twitterCard: '/pratika_manufacture.png',
+})
+
 </script>
 
 <style lang="scss" scoped>

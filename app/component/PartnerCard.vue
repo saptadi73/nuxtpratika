@@ -24,6 +24,15 @@ import Takagi from '../assets/images/takagi.webp';
 import Prima from '../assets/images/prima_komponen.webp';
 import Wen from '../assets/images/wen.webp';
 import BraceBoon from '../assets/images/braceboon.webp';
+import DayaCiptaAnugrah from '../assets/images/daya_cipta_anugrah.webp';
+import IndoMecoPratama from '../assets/images/indo_meco_pratama.webp';
+import kht from '../assets/images/kht.webp';
+import persada from '../assets/images/persada.webp';
+import SaptaWibawa from '../assets/images/sapta_wibawa.webp';
+import SumberDipaKencana from '../assets/images/sumber_dipa_kencana.webp';
+import TeralindoLestary from '../assets/images/teralindo_lestary.webp';
+import VegaMandiri from '../assets/images/vega_mandiri.webp';
+
 const partners = [
   {
     name: 'Ericsson',
@@ -64,6 +73,38 @@ const partners = [
   {
     name: 'Brace Boon',
     logo: BraceBoon,
+  },
+  {
+    name: 'Persada',
+    logo: persada,
+  },
+  {
+    name: 'Sapta Wibawa',
+    logo: SaptaWibawa,
+  },
+  {
+    name: 'SumberDipa Kencana',
+    logo: SumberDipaKencana,
+  },
+  {
+    name: 'Teralindo Lestary',
+    logo: TeralindoLestary,
+  },
+  {
+    name: 'Vega Mandiri',
+    logo: VegaMandiri,
+  },
+  {
+    name: 'KHT',
+    logo: kht,
+  },
+  {
+    name: 'Indo Meco Pratama',
+    logo: IndoMecoPratama,
+  },
+  {
+    name: 'Daya Cipta Anygrah',
+    logo: DayaCiptaAnugrah,
   },
   // Add more partner logos as needed
 ];

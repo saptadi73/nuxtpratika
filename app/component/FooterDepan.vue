@@ -12,12 +12,13 @@
           <p class="text-sm opacity-80">PT Pratika Nugraha Jaya</p>
         </div>
 
-        <!-- Navigasi -->
+        <!-- Navigasi (Gantikan dengan Peta Leaflet) -->
         <div>
           <h4 class="text-lg font-semibold mb-4">Kunjungi Kami di:</h4>
-          <ul class="space-y-2 text-sm">
-            <li><a href="https://pratika.biz" class="hover:underline">Web Resmi</a></li>
-          </ul>
+          <div class="space-y-2 text-sm">
+            <div id="map" style="height: 300px;"></div>
+            <p class="mt-2">Alamat: Jl. Beringin, No. 71, Kel. Leuwinanggung, Kec. Tapos, Depok, Jawa Barat, Indonesia 16456</p>
+          </div>
         </div>
 
         <!-- Kontak -->
@@ -92,7 +93,26 @@
     </footer>
   </div>
 </template>
+<script setup>
+const { $leaflet } = useNuxtApp();
 
-<script setup></script>
+onMounted(() => {
+  const map = $leaflet.map('map').setView([-6.41430, 106.90083], 16);
 
-<style lang="scss" scoped></style>
+  $leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  }).addTo(map);
+
+  $leaflet
+    .marker([-6.41430, 106.90083])
+    .addTo(map)
+    .bindPopup('<b>PT Pratika Nugraha</b><br>Jl. Beringin, No. 71, Kel. Leuwinanggung, Kec. Tapos, Depok, Jawa Barat, Indonesia 16456')
+    .openPopup();
+});
+</script>
+
+<style scoped>
+#map {
+  height: 300px;
+}
+</style>
