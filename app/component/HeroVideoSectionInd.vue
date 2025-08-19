@@ -8,7 +8,7 @@
       playsinline
       poster="../assets/images/sibuk_pekerja.png"
     >
-      <source src="../assets/videos/sibuk_manufacture_video.mp4" type="video/mp4" />
+      <source src="../assets/videos/pratika_video_canva.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
     <div class="absolute inset-0 bg-black/60 md:bg-black/40"></div>
