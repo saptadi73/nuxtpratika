@@ -31,7 +31,7 @@
             </li>
             <li class="flex items-center">
               <span class="material-symbols-outlined"> email </span>
-              info@pratika.biz
+              marketing@pratikanugraha.co.id
             </li>
             <li class="flex items-center">
               <span class="material-symbols-outlined"> perm_phone_msg </span>
